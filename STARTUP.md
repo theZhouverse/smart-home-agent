@@ -33,7 +33,7 @@ Start-Service mosquitto
 新开一个终端：
 
 ```powershell
-cd d:\projects\smart-home-agent-master\smart-home-agent-master
+cd d:\projects\02-resume-projects\smart-home-agent-master\smart-home-agent-master
 python device_simulator.py
 ```
 
@@ -50,7 +50,7 @@ python device_simulator.py
 再新开一个终端：
 
 ```powershell
-cd d:\projects\smart-home-agent-master\smart-home-agent-master
+cd d:\projects\02-resume-projects\smart-home-agent-master\smart-home-agent-master
 python smart_home.py
 ```
 
@@ -104,7 +104,7 @@ python test_integration.py
 
 ## 5. 配置说明
 
-MQTT 连接配置在 [config.py](file:///d:/projects/smart-home-agent-master/smart-home-agent-master/config.py)：
+MQTT 连接配置在 [config.py](file:///d:/projects/02-resume-projects/smart-home-agent-master/smart-home-agent-master/config.py)：
 
 ```python
 MQTT_BROKER = "localhost"   # Mosquitto 本机地址
